@@ -1,0 +1,37 @@
+{
+  "pages": [
+    "pages/detailed/detailed",
+    "pages/add/add",
+    "pages/settings/settings"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/detailed/detailed",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "明细"
+      },
+      {
+        "pagePath": "pages/add/add",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "记账"
+      },
+      {
+        "pagePath": "pages/settings/settings",
+        "iconPath": "",
+        "selectedIconPath": "",
+        "text": "设置"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
