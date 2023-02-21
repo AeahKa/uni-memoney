@@ -1,6 +1,6 @@
 {
   "pages": [
-    "pages/detailed/detailed",
+    "pages/details/details",
     "pages/add/add",
     "pages/settings/settings"
   ],
@@ -12,23 +12,26 @@
     "backgroundColor": "#F8F8F8"
   },
   "tabBar": {
+    "color": "#4b4d50",
+    "selectedColor": "#a8a0a0",
+    "height": "54px",
     "list": [
       {
-        "pagePath": "pages/detailed/detailed",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "pagePath": "pages/details/details",
+        "iconPath": "static/icons/details.png",
+        "selectedIconPath": "static/icons/detailshl.png",
         "text": "明细"
       },
       {
         "pagePath": "pages/add/add",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "iconPath": "static/icons/add.png",
+        "selectedIconPath": "static/icons/addhl.png",
         "text": "记账"
       },
       {
         "pagePath": "pages/settings/settings",
-        "iconPath": "",
-        "selectedIconPath": "",
+        "iconPath": "static/icons/settings.png",
+        "selectedIconPath": "static/icons/settingshl.png",
         "text": "设置"
       }
     ]
