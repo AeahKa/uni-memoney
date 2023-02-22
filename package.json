@@ -1,0 +1,9 @@
+{
+    "id": "xl-calculator",
+    "name": "xl-calculator计算器弹窗",
+    "version": "0.2",
+    "description": "app、h5、小程序平台使用的计算器弹窗组件，含常规的逻辑计算和异常拦截。",
+    "keywords": [
+        "计算器"
+    ]
+}

@@ -74,3 +74,15 @@ $uni-color-subtitle: #555555; // 二级标题颜色
 $uni-font-size-subtitle:26px;
 $uni-color-paragraph: #3F536E; // 文章段落颜色
 $uni-font-size-paragraph:15px;
+
+%clearfix {
+	&::after {
+		content: '';
+		clear: both;
+		display: block;
+	}
+}
+%innerShadow {
+	box-shadow: inset 0 -3px 3px -3px fade-out($color: #000000, $amount: 0.6),
+		inset 0 3px 3px -3px fade-out($color: #000000, $amount: 0.4);
+}

@@ -1,5 +1,10 @@
 {
   "navigationBarTitleText": "",
   "enablePullDownRefresh": false,
-  "usingComponents": {}
+  "usingComponents": {
+    "display": "/components/display/display",
+    "tabs": "/components/tabs/tabs",
+    "remark": "/components/remark/remark",
+    "tags": "/components/tags/tags"
+  }
 }

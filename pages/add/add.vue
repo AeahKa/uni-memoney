@@ -1,6 +1,10 @@
 <template>
-	<view>
-		
+	<view class="add">
+		<display />
+		<calculator />
+		<tabs />
+		<remark />
+		<tags />
 	</view>
 </template>
 
@@ -8,15 +12,18 @@
 	export default {
 		data() {
 			return {
-				
+
 			}
 		},
 		methods: {
-			
+
 		}
 	}
 </script>
 
-<style>
-
+<style lang='scss'>
+	.add {
+		display: flex;
+		flex-flow: column-reverse;
+	}
 </style>

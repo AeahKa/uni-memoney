@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "uni-popup": "/components/uni-popup/uni-popup",
+    "xl-calculator": "/components/xl-calculator/xl-calculator"
+  },
+  "component": true
+}

@@ -1,0 +1,135 @@
+
+.calculator-view {
+	width: 630rpx;
+	display: flex;
+	flex-direction: column;
+	background-color: #ffffff;
+}
+.calculator-view-top {
+	box-sizing: border-box;
+	width: 630rpx;
+	background-color: #ffffff;
+	padding-top: 20rpx;
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	padding-bottom: 20rpx;
+	display: flex;
+	flex-direction: column;
+}
+.calculator-view-top-a {
+	font-size: 36rpx;
+	min-height: 44rpx;
+	color: #606060;
+	text-align: right;
+}
+.calculator-view-top-b {
+	margin-top: 20rpx;
+	width: 570rpx;
+	min-height: 80rpx;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.calculator-view-top-b1 {
+	width: 480rpx;
+	/* white-space: pre-wrap; */
+	word-wrap: break-word;
+	font-size: 56rpx;
+	text-align: left;
+	color: #606060;
+}
+.calculator-view-top-b2 {
+	width: 80rpx;
+	height: 80rpx;
+}
+.calculator-button {
+	width: 630rpx;
+	display: flex;
+	flex-direction: row;
+}
+.calculator-button-left {
+	width: 510rpx;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.calculator-button-left-a {
+	position: relative;
+	width: 170rpx;
+	height: 170rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #ffffff;
+}
+.calculator-button-left-aview {
+	width: 170rpx;
+	height: 170rpx;
+	position: relative;
+}
+.calculator-button-left-a1 {
+	font-size: 60rpx;
+	color: #212121;
+}
+.calculator-button-left-a:active {
+	opacity: 0.7;
+}
+.calculator-button-left-a2 {
+	width: 170rpx;
+	height: 170rpx;
+	position: absolute;
+	background-color: #000000;
+}
+.calculator-button-right {
+	width: 120rpx;
+	display: flex;
+	flex-direction: column;
+	background-color: #000000;
+}
+.calculator-button-right-a {
+	width: 120rpx;
+	height: 136rpx;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+.calculator-button-right-a1 {
+	font-size: 50rpx;
+	color: #212121;
+}
+.calculator-button-right-a:active {
+	opacity: 0.7;
+}
+.calculator-view-bottom {
+	width: 630rpx;
+	height: 110rpx;
+	background-color: #ffffff;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+.calculator-view-bottom-a {
+	width: 160rpx;
+	height: 70rpx;
+	border-radius: 40rpx;
+	margin-left: 50rpx;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: #f5f5f5;
+}
+.calculator-view-bottom-a:active {
+	opacity: 0.7;
+}
+.calculator-view-bottom-a1 {
+	font-size: 34rpx;
+	font-weight: 500;
+	color: #212121;
+}
+

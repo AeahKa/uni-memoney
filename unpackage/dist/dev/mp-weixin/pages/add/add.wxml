@@ -1,1 +1,1 @@
-<view></view>
+<view class="add"><display vue-id="14bea408-1" bind:__l="__l"></display><calculator vue-id="14bea408-2" bind:__l="__l"></calculator><tabs vue-id="14bea408-3" bind:__l="__l"></tabs><remark vue-id="14bea408-4" bind:__l="__l"></remark><tags vue-id="14bea408-5" bind:__l="__l"></tags></view>
